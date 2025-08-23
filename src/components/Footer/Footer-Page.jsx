@@ -10,8 +10,8 @@ function FooterPage() {
 
     return (
         <>
-            <div id="contact" className="flex flex-col items-center justify-end w-full h-[50vh] bg-zinc-800 px-10 lg:px-20 py-10">
-                <div className="flex flex-col lg:grid grid-rows-1 grid-cols-2 w-full h-full">
+            <div id="contact" className="flex flex-col items-center justify-end w-full h-auto lg:h-[50vh] bg-zinc-800 px-10 lg:px-20 py-10">
+                <div className="flex flex-col lg:grid grid-rows-1 grid-cols-2 w-full h-full gap-10 lg:gap-0">
                     <div className="flex flex-col gap-5 lg:gap-0 lg:grid grid-cols-2 grid-rows-1 w-full h-full">
                         <div className="flex flex-col items-center lg:items-start justify-start">
                             <h2 className="text-3xl font-extrabold tracking-wide font-sans text-white">Contact me</h2>
@@ -23,9 +23,9 @@ function FooterPage() {
                             <SocialMediaLink link = "https://t.me/Vincxzse" image = { tgIcon } linkTitle = "Vince" />
                         </div>
                     </div>
-                    <div className="flex lg:grid grid-cols-2 grid-rows-1 w-full h-full">
+                    <div className="flex lg:grid grid-cols-2 grid-rows-1 w-full h-auto lg:h-full">
                         <div className="hidden lg:flex"></div>
-                        <div className="flex flex-col lg:flex-row w-full h-full items-center justify-end lg:items-end lg:justify-start gap-2">
+                        <div className="flex flex-col lg:flex-row w-full h-auto lg:h-full items-center justify-end lg:items-end lg:justify-start gap-2">
                             <p>Copyright © { year };</p>
                             <div className="flex flex-row items-center justify-center">
                                 <p>Designed by</p>
